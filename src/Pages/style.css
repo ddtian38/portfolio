@@ -1,0 +1,28 @@
+body{
+    background-image: url("../assets/images/background.jpeg");
+    font-family: "Montserrat", sans-serif;
+    color: gray;
+
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    margin: 20px;
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 90%;
+    height: 70%;
+}
+
+
+.contact-container ul{
+    margin: 0 43%;
+}
+
+.contact-container li {
+    list-style: none;
+    margin-right: 20px;
+    float: left;
+}
