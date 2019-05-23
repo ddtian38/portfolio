@@ -21,8 +21,15 @@ img {
     margin: 0 43%;
 }
 
-.contact-container li {
+.contact-links:first-child{
+    margin-left: 45%;
+}
+
+
+.contact-links {
+    color: white;
+    height: 150%;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 50px;
     float: left;
 }

@@ -14,7 +14,7 @@ const styles= {
     project_content: {
         marginTop: "5px",
         marginBottom: "5px",
-        borderBottom: "2px white solid",
+        borderBottom: "2px black solid",
         backgroundColor: "rgba(255,255,255, 0.9)",
         color: "gray"
     },

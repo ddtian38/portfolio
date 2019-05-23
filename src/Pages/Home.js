@@ -15,18 +15,11 @@ const styles = {
         backgroundColor: "rgba(255,255,255, 0.9)"
     },
 
-    personal_container : {
-        marginTop: "50px",
-        padding: "",
-        border: "2px black solid",
-        backgroundColor: "lightgray"
-
-    },
 
     contact_container : {
         marginTop: "50px",
         border: "2px black solid",
-        backgroundColor: "lightgray"
+        backgroundColor: "lightgray",
 
     }
 }
@@ -46,8 +39,12 @@ const Home = ({classes})=>{
             <Grid item xs={12} className={classes.contact_container}>
                 <h1>Contact Info</h1>
                 <ul>
-                    <li><i class="fab fa-github"></i></li>
-                    <li><i class="fab fa-github"></i></li>
+                    <li className = "contact-links">
+                        <a href="https://github.com/ddtian38"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li className = "contact-links">
+                    <a href="https://www.linkedin.com/in/daniel-tian/"><i class="fab fa-linkedin-in"></i></a>
+                     </li>
                 </ul>
             </Grid>
         </Grid>

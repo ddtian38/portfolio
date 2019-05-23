@@ -25,7 +25,6 @@ const Navbar = (props) => {
             </Typography>
             <div className = {classes.menuButtons}>
                 <Button color="inherit">Projects</Button>
-                <Button color="inherit">About Me</Button>
                 <Button color="inherit">Contact</Button>
             </div>
 
